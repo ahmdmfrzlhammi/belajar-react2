@@ -68,6 +68,16 @@ function Profile() {
           borderRadius: '50%',
         }}
       /> */}
+      <img
+        className="avatar"
+        src={user.imageUrl}
+        // alt={'Foto ' + user.name}
+        style={{
+          width: user.imageSize,
+          height: user.imageSize,
+          borderRadius: '50%',
+        }}
+      />
     </>
   );
 }
